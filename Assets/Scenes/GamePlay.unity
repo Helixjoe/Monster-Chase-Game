@@ -762,11 +762,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterReference:
+  - {fileID: 7363109683618706894, guid: 8a2bb56d8d9df2b4284db9508e74b1b1, type: 3}
   - {fileID: 8522511139935454393, guid: 8dbae1958a0755e4eb9dd44ca5ba57b8, type: 3}
   - {fileID: 2318159318320784084, guid: 46be827836d21e6438ac44d7bc82306d, type: 3}
-  - {fileID: 7363109683618706894, guid: 8a2bb56d8d9df2b4284db9508e74b1b1, type: 3}
-  leftPos: {fileID: 0}
-  rightPos: {fileID: 0}
+  leftPos: {fileID: 1484907395}
+  rightPos: {fileID: 1436608323}
 --- !u!4 &175397066
 Transform:
   m_ObjectHideFlags: 0
@@ -1534,6 +1534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 417840802}
   - component: {fileID: 417840803}
+  - component: {fileID: 417840804}
   m_Layer: 0
   m_Name: Max Point
   m_TagString: Ground
@@ -1585,7 +1586,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1601,6 +1602,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.76, y: 6.38}
   m_EdgeRadius: 0
+--- !u!114 &417840804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417840801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a816577dc8953594ebe4a608b80e0df6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2314,6 +2327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1048351677}
   - component: {fileID: 1048351678}
+  - component: {fileID: 1048351679}
   m_Layer: 0
   m_Name: Min point
   m_TagString: Ground
@@ -2365,7 +2379,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2381,6 +2395,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.76, y: 6.38}
   m_EdgeRadius: 0
+--- !u!114 &1048351679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048351676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a816577dc8953594ebe4a608b80e0df6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1051135539
 GameObject:
   m_ObjectHideFlags: 0
@@ -3013,7 +3039,7 @@ Transform:
   m_GameObject: {fileID: 1436608322}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.2, y: -2.41, z: 0}
+  m_LocalPosition: {x: 45.26, y: -1.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3174,7 +3200,7 @@ Transform:
   m_GameObject: {fileID: 1484907394}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -38.27, y: -2.41, z: 0}
+  m_LocalPosition: {x: -36.97, y: -1.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
