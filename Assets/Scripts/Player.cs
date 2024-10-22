@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D myBody;
     private string WALK_ANIMATION = "Walk";
     private string JUMP_ANIMATION = "Jump";
+    private string ENEMY_TAG = "Enemy";
     private string GROUND_TAG = "Ground";
     private bool isGrounded;
     // Start is called before the first frame update
@@ -73,6 +74,11 @@ public class Player : MonoBehaviour
         {
            isGrounded = true;
            anim.SetBool(JUMP_ANIMATION,false);
+        }
+
+        if (collision.gameObject.CompareTag(ENEMY_TAG))
+        {
+            Destroy(gameObject);
         }
     }
 }
